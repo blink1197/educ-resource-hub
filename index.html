@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
                     <a class="px-4 nav-link active" aria-current="page" href="#home">Home</a>
-                    <a class="px-4 nav-link" href="#categories">Categories</a>
+                    <a class="px-4 nav-link" href="#categories-section">Categories</a>
                     <a class="px-4 nav-link" href="#about">About</a>
                 </div>
             </div>
@@ -90,9 +90,9 @@
         </div>
     </section>
 
-    <section class="py-5 px-4" id="categories">
+    <section class="py-5 px-4" id="categories-section">
         <!-- Tabs -->
-        <div class="container">
+        <div class="container" id="categories">
             <h2 class="space-mono-regular text-primary mb-4 text-center">Categories</h2>
 
             <!-- Tabs -->
@@ -132,43 +132,54 @@
             </ul>
 
             <!-- Tab Content -->
-            <div class="tab-content" id="myTabContent" id="resources">
-                <div class="tab-pane fade show active" id="math" role="tabpanel">
-                    <h4 class="fw-bold">Math & Logic</h4>
-                    <p>Build a strong foundation in reasoning, numbers, and analytical thinking. From basic arithmetic
-                        to advanced problem-solving, this category helps learners develop the essential skills needed
-                        for academic success, technical careers, and everyday decision-making.</p>
+            <div id="resources">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="math" role="tabpanel">
+                        <h4 class="fw-bold">Math & Logic</h4>
+                        <p>Build a strong foundation in reasoning, numbers, and analytical thinking. From basic
+                            arithmetic
+                            to advanced problem-solving, this category helps learners develop the essential skills
+                            needed
+                            for academic success, technical careers, and everyday decision-making.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="science" role="tabpanel">
+                        <h4 class="fw-bold">Science & Technology</h4>
+                        <p>Explore the world of scientific discovery and technological innovation. Learn the
+                            fundamentals of
+                            physics, biology, chemistry, and computer science through clear explanations, real-world
+                            applications, and engaging learning tools designed to deepen your understanding.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="business" role="tabpanel">
+                        <h4 class="fw-bold">Business & Finance</h4>
+                        <p>Master the skills needed to thrive in the modern economy. Discover lessons in
+                            entrepreneurship,
+                            personal finance, management, marketing, and productivity. Whether you’re building a
+                            business or
+                            improving your financial literacy, this category offers practical knowledge you can apply
+                            immediately.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="language" role="tabpanel">
+                        <h4 class="fw-bold">Languages & Communication</h4>
+                        <p>Strengthen your ability to speak, write, and express ideas clearly. Improve your grammar,
+                            vocabulary, and communication skills through structured lessons, interactive activities, and
+                            real-life examples suited for learners of all levels.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="creatives" role="tabpanel">
+                        <h4 class="fw-bold">Creative Skills</h4>
+                        <p>Unlock your creativity with lessons in design, digital art, storytelling, and content
+                            creation.
+                            This category empowers you to explore your artistic potential, develop your unique style,
+                            and
+                            learn the techniques used by modern creators and professionals.</p>
+                    </div>
                 </div>
 
-                <div class="tab-pane fade" id="science" role="tabpanel">
-                    <h4 class="fw-bold">Science & Technology</h4>
-                    <p>Explore the world of scientific discovery and technological innovation. Learn the fundamentals of
-                        physics, biology, chemistry, and computer science through clear explanations, real-world
-                        applications, and engaging learning tools designed to deepen your understanding.</p>
-                </div>
-
-                <div class="tab-pane fade" id="business" role="tabpanel">
-                    <h4 class="fw-bold">Business & Finance</h4>
-                    <p>Master the skills needed to thrive in the modern economy. Discover lessons in entrepreneurship,
-                        personal finance, management, marketing, and productivity. Whether you’re building a business or
-                        improving your financial literacy, this category offers practical knowledge you can apply
-                        immediately.</p>
-                </div>
-
-                <div class="tab-pane fade" id="language" role="tabpanel">
-                    <h4 class="fw-bold">Languages & Communication</h4>
-                    <p>Strengthen your ability to speak, write, and express ideas clearly. Improve your grammar,
-                        vocabulary, and communication skills through structured lessons, interactive activities, and
-                        real-life examples suited for learners of all levels.</p>
-                </div>
-
-                <div class="tab-pane fade" id="creatives" role="tabpanel">
-                    <h4 class="fw-bold">Creative Skills</h4>
-                    <p>Unlock your creativity with lessons in design, digital art, storytelling, and content creation.
-                        This category empowers you to explore your artistic potential, develop your unique style, and
-                        learn the techniques used by modern creators and professionals.</p>
-                </div>
             </div>
+
         </div>
 
     </section>
