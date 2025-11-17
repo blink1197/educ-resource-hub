@@ -1,0 +1,87 @@
+:root {
+    --color-primary: #0069BF;
+    --color-secondary: #D96800;
+    --color-secondary-hover: #f97f13;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#introduction {
+background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,1),
+    rgba(255,255,255,0.6)
+  ),
+  url('https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+background-size: cover;
+background-position: center;
+
+  height: 50vh;
+  color: white;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-secondary-hover);
+    border-color: var(--color-secondary-hover);
+}
+
+.feature-card {
+    max-width: 320px;
+}
+
+
+ 
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 12px 20px;
+    margin-right: 5px;
+    font-weight: 500;
+    color: #555;
+    transition: 0.2s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    background: #e9ecef;
+    color: #000;
+}
+
+.nav-tabs .nav-link.active {
+    background: var(--color-secondary);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.tab-pane {
+    background: #fff;
+    padding: 25px;
+    border-radius: 0 0.75rem 0.75rem 0.75rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
